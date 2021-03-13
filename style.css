@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: #f4f4ff;
+  color: white;
+  height: 70px;
+  align-items: center;
+  color: rgb(119, 64, 64);
+  justify-content: space-between;
+  padding-right: 110px;
+}
+
+nav .logo {
+  font-size: 24px;
+  padding: 0px 20px 0px 115px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-top: 7px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li a {
+  margin-right: 80px;
+  text-decoration: none;
+  color: rgb(138, 138, 138);
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.1s;
+  border-bottom: 3px solid blue;
+  padding-bottom: 5px;
+}
+
+.Hero-Section {
+  height: 100vh;
+  background-color: #f4f4ff;
+  padding: 10px 10px 20px 110px;
+  display: flex;
+}
+
+.Hero-Section .Content {
+  margin-top: 120px;
+  width: 40%;
+  height: 50%;
+  margin-right: 50px;
+  grid-template-columns: repeat(2 1fr);
+  font-family: "Playfair Display", serif;
+}
+
+.Hero-Section .Content h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.Hero-Section .Content p {
+  font-weight: 0.8em;
+  text-align: justify;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Hero-Section .Hero {
+  background-image: url(images/5130983-removebg.png);
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.Hero-Section .Content .btn {
+  padding: 15px 35px;
+  font-weight: bold;
+  color: white;
+  background-color: #282dbd;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  outline: none;
+}
+.Hero-Section .Content .btn:hover {
+  transition: 0.3s;
+  box-shadow: 10px 5px 5px rgba(32, 19, 218, 0.7);
+}
